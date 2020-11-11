@@ -1,0 +1,136 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: url("../resources/background.jpg");
+}
+#container {
+    width: 1200px;
+    /*border: 1px solid grey;*/
+    margin: 0 auto;
+}
+
+#header{
+    height: 100px;
+    padding: 10px 0;
+}
+#brand{
+    float:left;
+}
+
+
+h1 a {
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(20,28,77);
+    text-decoration: none;
+}
+
+.clear{
+    clear: both;
+}
+#menu{
+    height: 70px;
+    /*background: rgb(20,28,77);*/
+    background: linear-gradient(rgb(30, 40, 115), rgb(20,28,77));
+    padding: 7px 0 ;
+}
+ul{
+    list-style: none;
+}
+
+#menu ul li{
+    float: left;
+    padding: 0 30px;
+    height: 20px;
+    border-right: 1px solid #19ACD0;
+}
+
+#menu ul li:last-child{
+    border-right: none;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: white;
+    line-height: 30px;
+    transition: font-size 0.3s ease;
+}
+
+#menu ul li a:hover, #menu ul li a.active{
+    font-size: 30px;
+    font-weight: bold;
+    color: #19ACD0;
+
+}
+#introduction{
+    background: rgb(20,28,77);
+    padding: 1px;
+    margin: 10px 0;
+    height: 70px;
+}
+
+#introduction h3{
+    font-size: 25px;
+    color: #cab238;
+    font-weight: normal;
+}
+
+#introduction p{
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+
+}
+
+.footer{
+    height: 60px;
+    background: linear-gradient(rgb(30, 40, 115), rgb(20,28,77));
+    padding: 10px 20px;
+    margin-top: 15px;
+    color: white;
+}
+.place{
+    height: 200px;
+    width: 550px;
+    margin-right: 20px;
+}
+
+.right{
+    height: 200px;
+    float: right;
+    width: 550px;
+    margin-right: 20px;
+    margin-top: 10px;
+    background: linear-gradient(rgb(30, 40, 115), rgb(20,28,77));
+    border: 2px solid #0e225f;
+
+}
+
+.left{
+    height: 200px;
+    float:left;
+    width: 550px;
+    margin-left: 20px;
+    margin-top: 10px;
+    background: linear-gradient(rgb(30, 40, 115), rgb(20,28,77));
+    border: 2px solid #0e225f;
+
+}
+
+.image{
+    float:left;
+}
+
+.text{
+    text-align: center;
+}
+
+.text h3{
+    color: #cab238;
+}
+
+.text p{
+    padding-right: 3px;
+    color: white;
+}

@@ -1,7 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8977ee2e-3b05-471c-9fe2-5dd2c0608cb1" name="Default Changelist" comment="" />
+    <list default="true" id="8977ee2e-3b05-471c-9fe2-5dd2c0608cb1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/css/placesStyling.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/places.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/blackrock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/castle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/icepark.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sports.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/stadium.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/stpatrick.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/accomodation.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/accomodation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/covid.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/covid.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +46,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1k45MaNSaGvoItzv1yCuEEbEDyh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -42,21 +77,47 @@
       <option name="presentableId" value="Default" />
       <updated>1604946975856</updated>
       <workItem from="1604946976882" duration="27221000" />
+      <workItem from="1605060937706" duration="186000" />
+      <workItem from="1605084094382" duration="5334000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="458" y="183" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605050384917">
-      <screen x="0" y="0" width="1440" height="809" />
-    </state>
-    <state x="458" y="183" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.809@0.0.1440.809" timestamp="1605050384917" />
-    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1605038156611" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1605056127540">
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605089911243">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1605056127540" />
+    <state x="458" y="183" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.809@0.0.1440.809" timestamp="1605050384917" />
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1605089911243" />
+    <state x="584" y="354" key="Github.ShareDialog" timestamp="1605061059241">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="584" y="354" key="Github.ShareDialog/0.0.1440.900@0.0.1440.900" timestamp="1605061059241" />
+    <state x="451" y="162" key="Github.UntrackedFilesDialog" timestamp="1605061074488">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="451" y="162" key="Github.UntrackedFilesDialog/0.0.1440.900@0.0.1440.900" timestamp="1605061074488" />
+    <state x="477" y="331" width="614" height="269" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1605087887989">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="477" y="331" width="614" height="269" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1440.900@0.0.1440.900" timestamp="1605087887989" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1605087875670">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.809@0.0.1440.809" timestamp="1605087850621" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1605087875670" />
   </component>
 </project>
