@@ -1,0 +1,198 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: url("../resources/background.jpg");
+}
+#container {
+    width: 1200px;
+    /*border: 1px solid grey;*/
+    margin: 0 auto;
+}
+
+#header{
+    height: 100px;
+    padding: 10px 0;
+}
+#brand{
+    float:left;
+}
+
+
+h1 a {
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(20,28,77);
+    text-decoration: none;
+}
+
+.clear{
+    clear: both;
+}
+#menu{
+    height: 70px;
+    /*background: rgb(20,28,77);*/
+    background: linear-gradient(rgb(30, 40, 115), rgb(20,28,77));
+    padding: 7px 0 ;
+}
+ul{
+    list-style: none;
+}
+
+#menu ul li{
+    float: left;
+    padding: 0 30px;
+    height: 20px;
+    border-right: 1px solid #19ACD0;
+}
+
+#menu ul li:last-child{
+    border-right: none;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: white;
+    line-height: 30px;
+    transition: font-size 0.3s ease;
+}
+
+#menu ul li a:hover, #menu ul li a.active{
+    font-size: 30px;
+    font-weight: bold;
+    color: #19ACD0;
+
+}
+#introduction{
+    background: rgb(20,28,77);
+    padding: 1px;
+    margin: 10px 0;
+    height: 150px;
+}
+
+#introduction h3{
+    font-size: 25px;
+    color: #cab238;
+    font-weight: normal;
+    margin-left: 20px;
+}
+
+#introduction p{
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.footer{
+    height: 60px;
+    background: linear-gradient(rgb(30, 40, 115), rgb(20,28,77));
+    padding: 10px 20px;
+    margin-top: 15px;
+    color: white;
+}
+
+.residence{
+    border: 1px solid rgb(20, 28, 77);
+    border-radius: 20px;
+    padding: 10px 30px;
+    height: 220px;
+    margin: 10px;
+    background: linear-gradient(rgb(44, 65, 179),rgb(20, 28, 77));
+}
+
+
+#greenpark h3{
+    color: #cab238;
+    font-size: 23px;
+    padding-left: 30px;
+}
+
+#greenpark ul{
+    color: white;
+}
+
+#greenpark ul li{
+    padding-bottom: 10px;
+}
+.green{
+    list-style-image: url("../resources/greentick.png");
+}
+
+.red{
+    list-style-image: url("../resources/redx.png");
+}
+
+.right{
+    float:right;
+}
+
+.left{
+    float:left;
+}
+
+#greenparkOutside{
+    float: left;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+#insideGreenpark{
+    float: left;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+#mourne h3{
+    color: #cab238;
+    font-size: 23px;
+    padding-left: 30px;
+}
+
+#mourne ul{
+    color: white;
+}
+
+#mourne ul li{
+    padding-bottom: 10px;
+}
+
+#mourneInside{
+    float: left;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+#mourneOutside{
+    float: left;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+#setanta h3{
+    color: #cab238;
+    font-size: 23px;
+    padding-left: 30px;
+}
+
+#setanta ul{
+    color: white;
+}
+
+#setanta ul li{
+    padding-bottom: 10px;
+}
+
+#setantaUglyInside{
+    float: left;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+#setantaUglyOutside{
+    float: left;
+    padding-left: 20px;
+    padding-top: 10px;
+}

@@ -1,0 +1,161 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: url("../resources/background.jpg");
+}
+#container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#header{
+    height: 100px;
+    padding: 10px 0;
+}
+#brand{
+    float:left;
+}
+
+
+h1 a {
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(20,28,77);
+    text-decoration: none;
+}
+
+.clear{
+    clear: both;
+}
+#menu{
+    height: 70px;
+    background: linear-gradient(rgb(30, 40, 115), rgb(20,28,77));
+    padding: 7px 0 ;
+}
+ul{
+    list-style: none;
+}
+
+#menu ul li{
+    float: left;
+    padding: 0 30px;
+    height: 20px;
+    border-right: 1px solid #19ACD0;
+}
+
+#menu ul li:last-child{
+    border-right: none;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: white;
+    line-height: 30px;
+    transition: font-size 0.3s ease;
+}
+
+#menu ul li a:hover, #menu ul li a.active{
+    font-size: 30px;
+    font-weight: bold;
+    color: #19ACD0;
+
+}
+#introduction{
+    background: rgb(20,28,77);
+    padding: 30px;
+    margin: 10px 0;
+}
+
+#introduction h3{
+    font-size: 45px;
+    color: #cab238;
+    font-weight: normal;
+}
+
+#introduction p{
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+}
+
+.sidebar{
+    border: 1px solid rgb(20,28,77);
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+.sidebar h3 {
+    color: #cab238;
+    font-size: 30px;
+}
+
+.sidebar ul{
+    padding-top: 8px;
+}
+
+#leftsidebar ul li{
+    color:white;
+    padding: 10px 0 6px 1px;
+    list-style-image: url("../resources/redx.png");
+}
+
+#rightsidebar ul li{
+    padding: 20px 10px 0 30px;
+    background: url("../resources/arrow.png") no-repeat left center;
+
+
+}
+
+
+#leftsidebar{
+    height: 500px;
+    width: 400px;
+    float: left;
+    background: linear-gradient(rgb(30, 40, 115), rgb(20,28,77));
+    padding: 10px 30px;
+    margin-left: 75px;
+}
+#rightsidebar{
+    float: right;
+    height: 500px;
+    width: 400px;
+    background: linear-gradient(rgb(30, 40, 115), rgb(20,28,77));
+    margin-right: 75px;
+}
+
+.sidebar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    transition: font-size 0.3s ease;
+}
+
+.sidebar ul li a:hover, .sidebar ul li a.active{
+    text-decoration: none;
+    color: #19ACD0;
+    font-size: 23px;
+    font-weight: bold;
+    transition: font-size 0.3s ease;
+
+}
+
+.footer{
+    height: 60px;
+    background: linear-gradient(rgb(30, 40, 115), rgb(20,28,77));
+    padding: 10px 20px;
+    margin-top: 15px;
+    color: white;
+}
+
+.text{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px 10px 10px;
+    font-family: "Comic Sans MS";
+}
+
+#call{
+    color: white;
+    font-size: 20px;
+}

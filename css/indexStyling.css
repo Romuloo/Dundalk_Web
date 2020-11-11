@@ -1,0 +1,181 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: url("../resources/background.jpg");
+}
+#container {
+    width: 1200px;
+    /*border: 1px solid grey;*/
+    margin: 0 auto;
+}
+
+#header{
+    height: 100px;
+    padding: 10px 0;
+}
+#brand{
+    float:left;
+}
+
+
+h1 a {
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(20,28,77);
+    text-decoration: none;
+}
+
+.clear{
+    clear: both;
+}
+#menu{
+    height: 70px;
+    /*background: rgb(20,28,77);*/
+    background: linear-gradient(rgb(30, 40, 115), rgb(20,28,77));
+    padding: 7px 0 ;
+}
+ul{
+    list-style: none;
+}
+
+#menu ul li{
+    float: left;
+    padding: 0 30px;
+    height: 20px;
+    border-right: 1px solid #19ACD0;
+}
+
+#menu ul li:last-child{
+    border-right: none;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: white;
+    line-height: 30px;
+    transition: font-size 0.3s ease;
+}
+
+#menu ul li a:hover, #menu ul li a.active{
+    font-size: 30px;
+    font-weight: bold;
+    color: #19ACD0;
+
+}
+#introduction{
+    background: rgb(20,28,77);
+    padding: 30px;
+    margin: 10px 0;
+}
+
+#introduction h3{
+    font-size: 45px;
+    color: #cab238;
+    font-weight: normal;
+}
+
+#introduction p{
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+}
+
+.sidebar{
+    border: 1px solid rgb(20,28,77);
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+.sidebar h3{
+    color: #b314db;
+    font-size: 30px;
+
+}
+
+.sidebar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #5d12e7;
+    transition: font-size 0.3s ease;
+}
+
+#leftsidebar ul{
+    padding-top: 8px;
+}
+
+
+#leftsidebar ul li{
+    padding: 4px 0 6px 10px;
+}
+
+#rightsidebar ul li{
+    padding: 17px 0 17px 70px;
+    background: url("../resources/tik.png") no-repeat left center;
+}
+
+.sidebar ul{
+    padding-top: 8px;
+}
+.sidebar ul li a:hover, .sidebar ul li a.active{
+    text-decoration: none;
+    color: #19ACD0;
+    font-size: 23px;
+    font-weight: bold;
+    transition: font-size 0.3s ease;
+
+}
+
+#leftsidebar{
+    height: 500px;
+    width: 600px;
+    float: left;
+    background: url("../resources/corcho.jpg");
+    border: 10px solid #e0ac78;
+    border-radius: 20px;
+    padding: 10px 30px;
+
+}
+#rightsidebar{
+    float: right;
+    height: 500px;
+    width: 450px;
+    background: url("../resources/map.jpg");
+}
+
+.photobox{
+    height: 200px;
+    width: 200px;
+    background: url("../resources/posit.png");
+    margin: 10px;
+    background-size: cover;
+}
+
+#photo{
+    margin-left: 250px;
+}
+
+#photo1{
+    margin-top: 20px;
+    float:right;
+}
+
+#photo2{
+    margin-bottom: 100px;
+}
+
+.footer{
+    height: 60px;
+    background: linear-gradient(rgb(30, 40, 115), rgb(20,28,77));
+    padding: 10px 20px;
+    margin-top: 15px;
+    color: white;
+}
+
+.text{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px 10px 10px;
+    font-family: "Comic Sans MS";
+}
+
